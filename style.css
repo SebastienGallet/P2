@@ -5,7 +5,74 @@
     font-family: 'Raleway', sans-serif;
 }
 
+header, main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+
+header img{
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    display: flex;  
+}
+
+li{
+    width: 160px;
+    text-align: center;
+    padding-top: 60px;  
+}
+
+li:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;  
+}
 
 
+/*Version mobile ci dessous*/
 
+@media screen and (max-width: 1280px) 
+{
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header img{
+    height: 100px;
+    width: 200px;
+}
+
+
+header li{
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+
+header li:hover{
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC; 
+    border-top: none; 
+}
+
+ 
+}
 
