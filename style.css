@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+poser la question pour l'intégration de la police*/
 
 * {
     box-sizing: border-box;
@@ -6,36 +7,54 @@
 }
 
 header, main {
-    margin-left: auto;
+    margin-left: 65px;
     margin-right: auto;
-    width: 98%;
+    width: 70%;
 }
 
 header img{
-    
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 45px;
 }
 
 ul{
-    float: right;
     list-style: none;
     display: flex;  
+    font-size: 18px;
+   
 }
 
 li{
     width: 160px;
     text-align: center;
-    padding-top: 60px;  
+    padding-top: 40px;
+     
 }
 
 li:hover{
     color: #0065FC;
     border-top: 3px solid #0065FC;  
 }
+
+h1{
+    font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 6px;
+}
+
+p{
+    font-size: 18px;   
+    margin-top: 0px;
+}
+
+
 
 
 /*Version mobile ci dessous*/
