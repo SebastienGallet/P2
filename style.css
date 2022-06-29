@@ -6,6 +6,8 @@ poser la question pour l'intégration de la police*/
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 header, main {
     margin-left: 65px;
     margin-right: auto;
@@ -53,6 +55,39 @@ p{
     font-size: 18px;   
     margin-top: 0px;
 }
+
+#formulaire{
+    display: flex;
+}
+
+#formulaire i{
+    background-color: rgb(238, 238, 238);
+    padding: 16px 22px 15px 22px;
+    border-radius: 14px 0px 0px 14px;
+    font-size: 20px;
+}
+
+#formulaire input{
+    height: 55px;
+    width: 250px;
+    border: 2px solid rgb(238, 238, 238);
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#formulaire button{
+    width: 150px;
+    background-color: #0065FC;
+    border: 2px solid #0065FC;
+    border-radius: 0px 14px 14px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
 
 
 
