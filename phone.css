@@ -1,0 +1,81 @@
+#btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+aside{
+    padding: 0;
+}
+
+#populary{
+    justify-content: space-around;
+}
+
+#searchtool{
+    margin: 0 20px 0 20px;
+}
+
+/*--Debut--Modification icone recherche*/
+#search-icon{
+    display: flex;
+}
+
+#search-icon i{
+    background-color: #0065FC;
+    padding: 12px 10px 12px 10px;
+}
+
+#search-txt{
+    display: none;
+}
+
+#formulaire button{
+    width: 60px;
+}
+/*--Fin--*/
+
+/*-----Hebergement--------*/
+#hbrgment h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#hbrgment {
+    margin-right: 0;
+}
+
+#lodgings{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+}
+
+#lodgings img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#lodgings figure{
+    width: 98%;
+}
+
+#lodgings a{
+    margin-right: 0;
+}
+
+/*-----Activity-------*/
+
+
+
+/*-----Footer-------*/
+#pied{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.ftr-list{
+    margin-bottom: 20px;
+}
