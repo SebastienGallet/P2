@@ -1,123 +1,18 @@
-body{
-    width: auto;
+/*--Filtres--*/
+#filter{
+    margin-bottom: 20px;
 }
 
-main{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-header, main{
-    width: 100%;
-}
-
-header{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 0;
-}
-       
-header img{
-   height: 50px;
-   width: 100px;
-   display: flex;
-   margin: 40px 0 0 0;
-}
-
-nav, aside{
-    width: 100%;
-}
-
-header ul{
-    padding: 0;
-    border-bottom: 3px solid rgb(238, 238, 238);
-}
-       
-header li{
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 20px;
-    font-size: 25px;
-}
-       
-header li:hover{
-    color: #0065FC;
-    border-bottom: 3px solid #0065FC; 
-    border-top: none;
-}
-
-h2, p, #formulaire, #info{
-    display: flex;
-    justify-content: center;
-}
-
-#btn{
-    justify-content: center;
-}
-
-.filter-btn{
+#filter h2, .filter-btn{
     margin-bottom: 15px;
 }
 
+/*--Place--*/
 #places{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-}
-
-
-#populary{
-    display: flex;
-    justify-content: space-evenly,
-}
-
-#aside-fgr{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-aside figure{
-    min-width: 400px;
-
-}
-
-#hbrgment{
-    display: flex;
     flex-direction: column;
-    max-width: 100%;
-    background-color: white;
-}
-
-#hbrgment h2{
-    display: flex;
-    justify-content: flex-start;
-}
-
-aside{
-    border-radius: 0;
-}
-
-#loisirs{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-    margin-top: 15px;
-}
-
-.bigimg, .small, .smaller{
-    margin-bottom: 30px;
-}
-
-#pied{
-    width: 100%;
 }
 
 #hbrgment{
-    height: auto;
+    max-width: 100%;
+    margin-right: 0;
 }
-

@@ -1,107 +1,143 @@
-#btn{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+main{
+    margin: 0;
 }
 
-aside{
+/*-------------------
+-      HEADER        -
+-------------------*/
+
+header{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 31px 0;
+}
+
+header h1 #logo{
+    margin: 20px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
     padding: 0;
 }
-
-#populary{
-    justify-content: space-around;
+       
+nav ul li {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-size: 18px;
+    border-bottom: 3px solid rgb(238, 238, 238);
+    border-top: none;
 }
+
+nav ul li:hover{
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC; 
+    border-top: none;
+}
+
+/*-------------------
+-      MAIN        -
+-------------------*/
 
 #searchtool{
-    margin: 0 20px 0 20px;
+    margin-left: 10px;
+}
+/*Formulaire*/
+#searchplace #formulaire{
+    justify-content: center;
+    margin-right: 10px;
 }
 
-/*--Debut--Modification icone recherche*/
-#search-icon{
-    display: flex;
-}
-
-#search-icon i{
-    background-color: #0065FC;
-    padding: 12px 10px 12px 10px;
-}
-
-#search-txt{
+#searchplace #formulaire #search-txt{
     display: none;
 }
 
-#formulaire button{
-    width: 60px;
-}
-/*--Fin--*/
-
-/*-----Hebergement--------*/
-#hbrgment h2{
+#searchplace #formulaire #search-icon{
     display: flex;
-    justify-content: flex-start;
-    margin: 0;
-    margin-left: 20px;
+    justify-content: center;
 }
 
-#hbrgment {
-    margin-right: 0;
+#searchplace #formulaire #search-icon i{
+    background-color: transparent;
+    padding: 12px 10px 12px 10px;
 }
 
-#lodgings{
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
+/*Places*/
+#places{
+    flex-direction: column-reverse;
 }
 
-#lodgings img{
+aside{
     width: 100%;
-    object-fit: cover;
+    background-color: #F2F2F2;
+    border-radius: 0;
 }
 
-#lodgings figure{
-    width: 98%;
+#hbrgment{
+    background-color: transparent;
 }
 
-#lodgings a{
-    margin-right: 0;
-}
-
-/*-----Activity-------*/
-#activity h2{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 20px;
-    margin-top: 35px;
-}
-
-#loisirs{
-    display: flex;
+#hbrgment #cards-h, #loisirs{
     flex-direction: column;
-    padding: 0 10px 0 10px;
+}
+
+#hbrgment #cards-h img, #loisirs img{
     width: 100%;
+}
+
+#hbrgment figure{
+    margin-bottom: 6px;
+}
+
+#cards-pop{
+    margin: 0 14px;
+}
+
+
+aside a{
+    width: 100%;
+}
+
+/*Activity*/
+#activity{
+    margin: 0 14px;
 }
 
 #loisirs img{
-    object-fit: cover;
-    height: 130px;
-    width: 100%;
-}
-
-#loisirs a{
-    width: 98%;
-}
-
-
-
-
-
-/*-----Footer-------*/
-#pied{
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+}
+
+#card2, #card3, #card5, #card6{
+    margin-bottom: 15px;
+}
+
+.bigimg img, #card2 img, #card3 img, #card5 img, #card6 img{
+    height: 110px;
+}
+
+/*-------------------
+-      FOOTER        -
+-------------------*/
+
+
+footer{
+    margin-top: 20px;
+}
+
+#pied{
+    flex-direction: column;
+    padding: 40px 0px 0px 30px;
 }
 
 .ftr-list{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.ftr-list a{
+    white-space: nowrap;
 }
