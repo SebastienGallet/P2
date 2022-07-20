@@ -339,6 +339,8 @@ aside img{
     object-fit: cover;
 }
 
+
+
 /*resolution du problème de width de la troisieme carte*/
 aside #thirdcard{
     min-width: 130px;
@@ -411,10 +413,6 @@ aside a p strong{
 }
 
 
-.bigimg img{
-    height: 388px;
-}
-
 #column2, #column4, .bigimg{
     display: flex;
     flex-direction: column;
@@ -423,6 +421,10 @@ aside a p strong{
 
 #column2, #column4{
     justify-content: space-between;
+}
+
+.bigimg img{
+    height: 388px;
 }
 
 #card2 img{
