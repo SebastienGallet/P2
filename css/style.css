@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,9 +12,6 @@
     margin: auto;
 }
 
-header, main{
-    margin: 0 46px 0 51px;
-}
 
 /*-------------------
 -      HEADER        -
@@ -48,6 +45,7 @@ nav ul li{
     text-align: center;
     padding-top: 50px;
     border-top: 2px solid transparent;
+    cursor: pointer;
 }
 
 nav ul li a{
@@ -61,14 +59,16 @@ nav ul li:hover{
 }
 
 
-nav ul li a:hover{
+nav ul li:hover a{
     color:#0065FC;
 }
 
 /*-------------------
 -       MAIN         -
 -------------------*/
-
+main{
+    margin: 0 46px;
+}
 
 #searchtool h2{
     font-size: 22px;
@@ -153,10 +153,12 @@ nav ul li a:hover{
 .filter-btn i{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #DEEBFF;
     font-size: 22px;
     border-radius: 50%;
-    padding: 14px;
+    width: 50px;
+    height: 50px;
     margin-left: -3px;
     color: #0065FC;
     overflow-x: visible;
@@ -172,11 +174,6 @@ nav ul li a:hover{
     background-color: #efefef;
 }
 
-/*ajustement de l'icone "Familial*/
-button:nth-child(2) i{
-    font-size: 22px;
-    font-weight: 800;
-}
 
 /*--info--*/
 #info{
@@ -225,7 +222,7 @@ button:nth-child(2) i{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 14px;
+    margin: 0 20px;
 }
 
 #cards-h figure .description{
@@ -311,7 +308,7 @@ aside #populary{
     justify-content: space-between;
     font-size: 15px;
     width: 100%;
-    padding: 45px 38px 25px 32px;
+    padding: 45px 35px 25px 35px;
 }
 
 aside #populary i{
@@ -406,17 +403,23 @@ aside a p strong{
 #loisirs h3{
     color: black;
     text-decoration: underline #fff;
-    /*Je ne sais pas pourquoi cela souligne en bleu ces H3 ...*/
     font-size: 16px;
     padding: 15px 0px 20px 15px;
     margin: 0;
+}
+
+#mid1, #mid2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 
 #column2, #column4, .bigimg{
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin: 0 5px 15px 5px;
 }
 
 #column2, #column4{
@@ -441,6 +444,23 @@ aside a p strong{
 
 #card6 img{
     height: 151px;
+}
+
+@media screen and (max-width: 1355px){
+    .bigimg img, #card2 img, #card3 img, #card5 img, #card6 img{
+        height: 180px;
+        min-width: 100%;
+    }
+
+    .bigimg, #card2, #card3, #card5, #card6{
+        margin-bottom: 15px;
+    }
+
+    .bigimg, #column2, #column4{
+        width: 90%;
+    }
+
+
 }
 
 /*-------------------
@@ -469,7 +489,6 @@ footer{
 .ftr-list{
     display: flex;
     flex-direction: column;
-    margin-right: 220px;
 }
 
 .ftr-list a{

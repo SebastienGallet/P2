@@ -1,3 +1,7 @@
+.page{
+    border: 1px solid rgb(47, 255, 0);
+}
+
 main{
     margin: 0;
 }
@@ -69,6 +73,7 @@ nav ul li:hover{
 /*Places*/
 #places{
     flex-direction: column-reverse;
+    margin-bottom: 0;
 }
 
 aside{
@@ -79,6 +84,10 @@ aside{
 
 #hbrgment{
     background-color: transparent;
+}
+
+#hbrgment h2{
+    padding: 45px 20px 17px 20px;
 }
 
 #hbrgment #cards-h, #loisirs{
@@ -94,12 +103,16 @@ aside{
 }
 
 #cards-pop{
-    margin: 0 14px;
+    margin: 0 20px;
 }
 
 
 aside a{
     width: 100%;
+}
+
+aside #populary{
+    padding: 45px 20px 25px 20px;
 }
 
 /*Activity*/
@@ -119,6 +132,22 @@ aside a{
 .bigimg img, #card2 img, #card3 img, #card5 img, #card6 img{
     height: 110px;
 }
+
+#mid1, #mid2{
+    width: 100%;
+}
+
+#column2, #column4{
+    width: 100%;
+    margin:0;
+}
+
+.bigimg{
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+
 
 /*-------------------
 -      FOOTER        -
