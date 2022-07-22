@@ -209,7 +209,7 @@ main{
     flex-direction: column;
     background-color: #F2F2F2;
     margin: 0px 40px 30px 0;
-    max-width: 66%;
+    min-width: 517px;
     border-radius: 20px;
 }
 
@@ -221,8 +221,8 @@ main{
 #cards-h{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0 20px;
+    justify-content: space-around;
+    /*margin: 0 20px;*/
 }
 
 #cards-h figure .description{
@@ -305,10 +305,19 @@ aside{
 
 aside #populary{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 15px;
     width: 100%;
-    padding: 45px 35px 25px 35px;
+    margin: 45px 0 22px;
+}
+
+#cards-pop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+
 }
 
 aside #populary i{
@@ -321,12 +330,6 @@ aside figure{
     padding: 6px;
     border-radius: 22px;
     box-shadow: 0px 6px 6px #e7e7e7;
-}
-
-#cards-pop{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 aside img{
@@ -354,7 +357,6 @@ aside a{
     text-decoration: none;
     color: black;
     width: 84%;
-    margin-bottom: 32px;
 }
 
 aside a h3{
