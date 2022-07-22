@@ -53,7 +53,7 @@ nav ul li a{
 
 nav ul li:hover{
     color: #0065FC;
-    border-top: 2px solid #0065FC;  
+    border-top: 2px solid #0065FC;
 }
 
 
@@ -118,6 +118,10 @@ main{
     display: none;
 }
 
+#search-icon:hover, #search-txt:hover{
+    cursor: pointer;
+}
+
 /*--Filtres--*/
 #filter{
     display: flex;
@@ -146,6 +150,8 @@ main{
     border: 2px solid #d7d7d7;
     padding: 0px 16px 0 0px;
     margin-right: 30px;
+    transform: scale(1);
+    transition-duration: 400ms;
 }
 
 .filter-btn i{
@@ -170,6 +176,9 @@ main{
 
 .filter-btn:hover{
     background-color: #efefef;
+    transform: scale(1.05);
+    transition-duration: 400ms;
+    cursor: pointer;
 }
 
 
@@ -220,8 +229,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*margin: 0 20px;*/
 }
+
 
 #cards-h figure .description{
     display: flex;
@@ -259,6 +268,13 @@ main{
     flex-direction: column;
     margin: 5px 5px 20px 5px;
     box-shadow: 0px 6px 6px #e7e7e7;
+    transform: scale(1);
+    transition-duration: 400ms;
+}
+
+#cards-h figure:hover{
+    transform: scale(1.05);
+    transition-duration: 400ms;
 }
 
 #cards-h figure img{
@@ -356,6 +372,13 @@ aside a{
     text-decoration: none;
     color: black;
     width: 336px;
+    transform: scale(1);
+    transition-duration: 400ms;
+}
+
+aside a:hover{
+    transform: scale(1.05);
+    transition-duration: 400ms;
 }
 
 aside a h3{
@@ -445,6 +468,17 @@ aside a p strong{
 
 #card6 img{
     height: 151px;
+}
+
+.bigimg, #card2, #card3, #card5, #card6{
+    transform: scale(1);
+    transition-duration: 400ms;
+}
+
+.bigimg:hover, #card2:hover, #card3:hover, #card5:hover, #card6:hover{
+    transform: scale(1.05);
+    transition-duration: 400ms;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1355px){
