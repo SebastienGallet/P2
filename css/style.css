@@ -349,6 +349,7 @@ aside #thirdcard{
 aside .description{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -356,7 +357,7 @@ aside .description{
 aside a{
     text-decoration: none;
     color: black;
-    width: 84%;
+    width: 336px;
 }
 
 aside a h3{
@@ -449,6 +450,14 @@ aside a p strong{
 }
 
 @media screen and (max-width: 1355px){
+    #mid1{
+        justify-content: flex-start;
+    }
+
+    #mid2{
+        justify-content: flex-end;
+    }
+
     .bigimg img, #card2 img, #card3 img, #card5 img, #card6 img{
         height: 180px;
         min-width: 100%;
