@@ -470,12 +470,13 @@ aside a p strong{
     height: 151px;
 }
 
-.bigimg, #card2, #card3, #card5, #card6{
+.bigimg a, #column2 a, #column4 a{
     transform: scale(1);
     transition-duration: 400ms;
+    text-decoration: none;
 }
 
-.bigimg:hover, #card2:hover, #card3:hover, #card5:hover, #card6:hover{
+.bigimg a:hover, #column2 a:hover, #column4 a:hover{
     transform: scale(1.05);
     transition-duration: 400ms;
     text-decoration: none;
