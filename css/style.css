@@ -99,6 +99,7 @@ main{
     font-size: 18px;
     font-weight: bold;
     padding-left: 15px;
+    border-radius: 0px;
 }
 
 #formulaire button{
