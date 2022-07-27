@@ -161,3 +161,21 @@ footer{
 .ftr-list a{
     white-space: nowrap;
 }
+
+
+@media screen and (max-width: 400px){
+
+    aside{
+        min-width: 0;
+    }
+    
+    aside a p{
+        margin-bottom: auto;
+    }
+
+    aside .description{
+        padding: 0 5px 0 10px
+    }
+
+    }
+
